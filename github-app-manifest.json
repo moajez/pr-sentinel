@@ -1,0 +1,18 @@
+{
+  "name": "PR Sentinel",
+  "url": "https://github.com/your-org/ai-github",
+  "hook_attributes": {
+    "url": "https://YOUR_PUBLIC_HOST/api/v1/webhooks/github",
+    "active": true
+  },
+  "public": false,
+  "default_permissions": {
+    "pull_requests": "write",
+    "checks": "write",
+    "contents": "read",
+    "issues": "write",
+    "metadata": "read"
+  },
+  "default_events": ["pull_request"]
+}
+
